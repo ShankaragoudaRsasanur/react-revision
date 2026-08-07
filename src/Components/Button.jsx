@@ -1,9 +1,9 @@
-function Button(){
-    function addNote(){
-        alert("notes added sucessfully!");
-    }
-    return(
-        <button onClick={addNote}>add note</button>
-    );
+function Button(props) {
+  return (
+    <button onClick={props.addNote}>
+      Add Note
+    </button>
+  );
 }
+
 export default Button;
