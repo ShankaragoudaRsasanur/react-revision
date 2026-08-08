@@ -1,6 +1,6 @@
-function Button(props) {
+function Button() {
   return (
-    <button onClick={props.addNote}>
+    <button type="submit">
       Add Note
     </button>
   );
