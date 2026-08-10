@@ -43,6 +43,7 @@ Answer: Ternary Operator.
 
 Answer: &&.
 
+
 9. Can we use multiple conditions?
 
 Answer: Yes.
